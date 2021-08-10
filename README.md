@@ -20,6 +20,7 @@ Enjoy!
 
     ```bash
     $ php init
+    $ composer dumpautoload
     $ (cd tests/Application && yarn install)
     $ (cd tests/Application && yarn build)
     $ (cd tests/Application && bin/console assets:install)
